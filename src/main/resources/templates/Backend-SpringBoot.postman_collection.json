@@ -57,18 +57,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/items?id=10",
+					"raw": "{{base_url}}/items/10",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"items"
-					],
-					"query": [
-						{
-							"key": "id",
-							"value": "10"
-						}
+						"items",
+						"10"
 					]
 				}
 			},
@@ -176,18 +171,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/transactions?id=1",
+					"raw": "{{base_url}}/transactions/18",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"transactions"
-					],
-					"query": [
-						{
-							"key": "id",
-							"value": "1"
-						}
+						"transactions",
+						"18"
 					]
 				}
 			},
