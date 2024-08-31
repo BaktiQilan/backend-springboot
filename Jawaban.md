@@ -1,11 +1,11 @@
-knowledge base
+# knowledge base
 1. Apa yang anda ketahui tentang Rest API?
 2. Apa yang anda ketahui tentang Server side and Client side processing?
 3. Apa yang anda ketahui tentang Monolith dan Microservices, berikan contohnya?
 4. Apa yang anda ketahui tentang Design pattern inversion of Control serta Dependency Injection?
 5. Apa yang anda ketahui tentang Java programming dan Spring framework khususnya spring-boot?
 
-Jawab:
+## Jawab:
 1. RestAPI adalah suatu cara untuk melakukan komunikasi antar aplikasi melalui jaringan dengan menggunakan HTTP request. dengan maksud atau tujuan untuk memudahkan integrasi dari berbagai aplikasi ataupun layanan.
 
 2. - Server Side Processing: Pengolahan atau proses yang dilakukan di server, seperti business logic, otentifikasi user, dan interaksi dengan database.
@@ -22,7 +22,7 @@ Jawab:
    - Spring-boot: adalah subproject dari spring framework yang berfungsi sebagai penyederhana aplikasi spring dengnakonfigurasi otomatis, starter POMs dan tambahanm layanan lainya.
 
 
-====================== Jawaban Desain Database =======================================
+#  Jawaban Desain Database 
 dalam project ini saya membuat aplikasi secara monolith (karena aplikasi yang dibuat ingin selesai secara cepat dan belum memerlukan proses yang kompleks)
 
 pada database, saya memiliki tabel-tabel berikut:
@@ -32,6 +32,9 @@ pada database, saya memiliki tabel-tabel berikut:
 4. Tabel cart_item
 5. Tabel transaction
 6. Tabel transaction_item
+
+dan untuk ER Diagram seperti berikut:
+![detail-transaction](src/main/resources/static/ER Diagram tabel.png)
 
 dan penjelsan modul-modul yang saya buat, secara garis besar  seperti berikut:
 1. User berfungsi untuk melakukan cek apakah username dan password ada atau tidak, jika ada maka akan bisa mengakses semua endpoint, jika tidak ada maka tidak bisa. (hanya menggunakan Basic Auth)
