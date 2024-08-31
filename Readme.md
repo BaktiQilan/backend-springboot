@@ -41,4 +41,4 @@ terkait design system Toko, Barang, Pembelian pada ecommerse tersebut.
 ## Jawaban ada pada [Jawaban.md](Jawaban.md)
 ### Backup database ada pada [backup](src/main/resources/templates/db_test_backend_20240831.backup)
 ### dan script sql untuk contoh data [script.sql](src/main/resources/templates/script.sql)
-### Postman Collection [postman](src/main/resources/templates/Backend Spring Boot.postman_collection.json)
+### Postman Collection [postman](src/main/resources/templates/Backend-SpringBoot.postman_collection.json)

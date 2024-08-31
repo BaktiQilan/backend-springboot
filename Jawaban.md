@@ -34,7 +34,7 @@ pada database, saya memiliki tabel-tabel berikut:
 6. Tabel transaction_item
 
 dan untuk ER Diagram seperti berikut:
-![detail-transaction](src/main/resources/static/ER Diagram tabel.png)
+![er-diagram](src/main/resources/static/ER-Diagram.png)
 
 dan penjelsan modul-modul yang saya buat, secara garis besar  seperti berikut:
 1. User berfungsi untuk melakukan cek apakah username dan password ada atau tidak, jika ada maka akan bisa mengakses semua endpoint, jika tidak ada maka tidak bisa. (hanya menggunakan Basic Auth)
